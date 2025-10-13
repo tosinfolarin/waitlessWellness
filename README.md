@@ -1,2 +1,0 @@
-# waitlessWellness
-Physiotherapy application
