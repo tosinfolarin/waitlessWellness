@@ -5,6 +5,9 @@ const Home = () => {
   return (
     <View style={styles.container}>
       <Text>Welcome to Waitlesss Wellness</Text>
+      <Text>Home</Text>
+      <Text>Exercises</Text>
+      <Text>Find a Physio</Text>
     </View>
   );
 };
