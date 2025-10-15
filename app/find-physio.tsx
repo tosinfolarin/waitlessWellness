@@ -2,12 +2,13 @@ import React, { Component } from 'react'
 import { Text, StyleSheet, View } from 'react-native'
 import { Link } from 'expo-router';
 
-const RedFlags = () => {
+const FindPhysio = () => {
   return (
     <View style={styles.container}>
+    {/* <Image source={Logo} style={styles.logo}/> */}
       <Link href="/" style={styles.card} >Home</Link>
+      <Link href="/red-flags" style={styles.card} >Red Flags</Link>
       <Link href="/exercises" style={styles.card}>Exercises</Link>
-      <Link href="/find-physio" style={styles.card}>Find a Physiotherapist</Link>
     </View>
   );
 };
@@ -35,4 +36,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default RedFlags;
+export default FindPhysio;
