@@ -13,6 +13,8 @@ const Home = () => {
       <Link href="/exercises" style={styles.card}>Exercises</Link>
       <Link href="/red-flags" style={styles.card} >Red Flags</Link>
       <Link href="/find-physio" style={styles.card}>Find a Physiotherapist</Link>
+      <Link href="/(auth)/login" style={styles.card} >Login</Link>
+      <Link href="/(auth)/signup" style={styles.card} >Sign up</Link>
     </View>
   );
 };
