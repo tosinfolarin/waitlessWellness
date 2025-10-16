@@ -2,16 +2,14 @@ import React from 'react';
 import { View, Text, StyleSheet, Image} from 'react-native';
 import { Link } from 'expo-router';
 
-console.log('Image loaded:', require('../assets/img/wwLogo.png'));
-
+const Logo = require('../assets/img/wwLogo.png')
 const Home = () => {
-  const Logo = require('../assets/img/wwLogo.png')
   return (
     <View style={styles.container}>
     <Image source={Logo} style={styles.logo}/>
       <Text style={styles.title}>Welcome to </Text> 
       <Text style={styles.title}>Waitlesss Wellness {'\n'}</Text>
-      <Text style={styles.slogan}> The app that brings physiotherapy to your fingertips{'\n'} {'\n'}</Text>
+      <Text style={styles.slogan}> The app that brings physiotherapy to your fingertips</Text>
       <Link href="/exercises" style={styles.card}>Exercises</Link>
       <Link href="/red-flags" style={styles.card} >Red Flags</Link>
       <Link href="/find-physio" style={styles.card}>Find a Physiotherapist</Link>
@@ -37,7 +35,8 @@ const styles = StyleSheet.create({
     fontWeight: 'semibold',
     justifyContent: 'center',
     alignItems: 'center',
-    fontSize: 15
+    fontSize: 15,
+    paddingBottom: 15,
   },
   card: {
     backgroundColor: '#0005',

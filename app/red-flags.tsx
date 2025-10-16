@@ -1,5 +1,4 @@
-import React, { Component } from 'react'
-import { Text, StyleSheet, View } from 'react-native'
+import { StyleSheet, View } from 'react-native'
 import { Link } from 'expo-router';
 
 const RedFlags = () => {
@@ -26,7 +25,11 @@ const styles = StyleSheet.create({
     fontSize: 25
 
   },
-  
+  logo: {
+    width: 150,
+    height: 150,
+    resizeMode: 'contain',
+  },
   card: {
     backgroundColor: '#0005',
     padding: 6,

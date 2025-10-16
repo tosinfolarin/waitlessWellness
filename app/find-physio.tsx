@@ -1,11 +1,9 @@
-import React, { Component } from 'react'
-import { Text, StyleSheet, View } from 'react-native'
+import { StyleSheet, View } from 'react-native'
 import { Link } from 'expo-router';
 
 const FindPhysio = () => {
   return (
     <View style={styles.container}>
-    {/* <Image source={Logo} style={styles.logo}/> */}
       <Link href="/" style={styles.card} >Home</Link>
       <Link href="/red-flags" style={styles.card} >Red Flags</Link>
       <Link href="/exercises" style={styles.card}>Exercises</Link>
