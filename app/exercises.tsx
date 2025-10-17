@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Text, StyleSheet, View } from 'react-native'
 import { Link } from 'expo-router';
+import VideoGrid from './exercises/ankle/ankleExs1';
 
 const Exercises = () => {
     return (
