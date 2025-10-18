@@ -55,4 +55,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default VideoGrid;
+export default AnkleExs3;
