@@ -16,7 +16,7 @@ const screenWidth = Dimensions.get('window').width;
 const videoWidth = (screenWidth - 40) / 1; // 3 columns with some margin
 const videoHeight = videoWidth * (6 / 10); // standard YouTube aspect ratio
 
-const VideoGrid = () => {
+const AnkleExs2 = () => {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <View style={styles.grid}>
@@ -55,4 +55,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default VideoGrid;
+export default AnkleExs2;

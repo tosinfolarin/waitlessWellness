@@ -3,12 +3,13 @@ import { View, StyleSheet, ScrollView, Dimensions } from 'react-native';
 import { WebView } from 'react-native-webview';
 
 const videos = [
-  "https://www.youtube.com/embed/rzeTc3fyX_Y",
-  "https://www.youtube.com/embed/c2KF19VI260",
-  "https://www.youtube.com/embed/LZ0YOtbSgU8",
-  "https://www.youtube.com/embed/lD6lqjAh57w",
-  "https://www.youtube.com/embed/HFNECPgOGI8",
-  "https://www.youtube.com/embed/pgoh-1i6ut0",
+  "https://www.youtube.com/embed/egs6m4J8u8c",
+  "https://www.youtube.com/embed/fcvfk7TVyVg",
+  "https://www.youtube.com/embed/_WMDBZOGZB4",
+  "https://www.youtube.com/embed/mIA11hAcvwI",
+  "https://www.youtube.com/embed/8BRnpWIB3qg",
+  "https://www.youtube.com/embed/q8u3rP2kPLY",
+
 
 ];
 
@@ -16,7 +17,7 @@ const screenWidth = Dimensions.get('window').width;
 const videoWidth = (screenWidth - 40) / 1; // 3 columns with some margin
 const videoHeight = videoWidth * (6 / 10); // standard YouTube aspect ratio
 
-const AnkleExs1 = () => {
+const VideoGrid = () => {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <View style={styles.grid}>
@@ -55,4 +56,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default AnkleExs1;
+export default VideoGrid;
